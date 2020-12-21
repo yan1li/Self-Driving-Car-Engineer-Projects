@@ -4,19 +4,19 @@
 
 ## Currently finished projects:
 
-- 1. Finding Lane Lines
-- 2. Traffic Sign Classifier
-- 3. Behavioral Cloning
-- 4. Advanced Lane Finding
-- 5. Vehicle Detection and Tracking
-- 6. Extended Kalman Filter
-- 7. Unscented Kalman Filters
-- 8. Kidnapped Vehicle
-- 9. PID Control
-- 10. Model Predictive Control
+1, Finding Lane Lines
+2, Traffic Sign Classifier
+3, Behavioral Cloning
+4, Advanced Lane Finding
+5, Vehicle Detection and Tracking
+6, Extended Kalman Filter
+7, Unscented Kalman Filters
+8, Kidnapped Vehicle
+9, PID Control
+10, Model Predictive Control
 
 ## Demonstration
 
-### 1. [Finding Lane Lines](https://github.com/yan1li/Self-Driving-Car-Engineer-Projects/main/P1-Finding-Lane-Lines)
+### 1. [Finding Lane Lines](https://github.com/yan1li/Self-Driving-Car-Engineer-Projects/tree/main/P1_Finding_Lane-Lines)
 
 Use basic computer vision techniques, Canny Edge Detection and Hough Transform for instance, to detect lanes in some video streams taken from a running car.
