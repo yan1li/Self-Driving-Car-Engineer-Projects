@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road**
 
-![p1_1](/P1_Finding_Lane_Lines/Demonstration/p1_1.jpg)
+![p1_1](/Self-Driving-Car-Engineer-Projects/P1_Finding_Lane_Lines/Demonstration/p1_1.jpg)
 
 # Overview
 
@@ -12,7 +12,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 1. Since we are dealing with video streams, it's necessary to extract frames from videos and process them one by one. Here is an image example extracted from one of the video.
 
-   ![p1_2](/P1_Finding_Lane_Lines/Demonstration/p1_2.jpg)
+   ![p1_2](/Self-Driving-Car-Engineer-Projects/P1_Finding_Lane_Lines/Demonstration/p1_2.jpg)
 
 2. After extracting image from video, I apply a Gaussian Blur to remove noise.
 
@@ -32,7 +32,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 I keep dominant lines and the lane I find in the video to better demosnstrate the algorithm.
 
-![p1_3](/P1_Finding_Lane_Lines/Demonstration/p1_3.jpg)
+![p1_3](/Self-Driving-Car-Engineer-Projects/P1_Finding_Lane_Lines/Demonstration/p1_3.jpg)
 
 ## Shortcomings
 
