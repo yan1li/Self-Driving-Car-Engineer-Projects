@@ -12,7 +12,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 1. Since we are dealing with video streams, it's necessary to extract frames from videos and process them one by one. Here is an image example extracted from one of the video.
 
-   ![p1_2](yan1li/Self-Driving-Car-Engineer-Projects/P1_Finding_Lane_Lines/Demonstration/p1_2.jpg)
+   ![p1_2](https://github.com/yan1li/Self-Driving-Car-Engineer-Projects/blob/main/P1_Finding_Lane-Lines/Demonstration/p1_2.jpg)
 
 2. After extracting image from video, I apply a Gaussian Blur to remove noise.
 
