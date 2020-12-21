@@ -32,7 +32,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 I keep dominant lines and the lane I find in the video to better demosnstrate the algorithm.
 
-![p1_3](yan1li/Self-Driving-Car-Engineer-Projects/P1_Finding_Lane_Lines/Demonstration/p1_3.jpg)
+![p1_3](https://github.com/yan1li/Self-Driving-Car-Engineer-Projects/blob/main/P1_Finding_Lane-Lines/Demonstration/p1_3.jpg)
 
 ## Shortcomings
 
