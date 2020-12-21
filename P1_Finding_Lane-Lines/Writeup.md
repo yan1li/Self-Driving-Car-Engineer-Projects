@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road**
 
-![p1_1](P1_Finding_Lane_Lines/Demonstration/p1_1.jpg)
+![p1_1](/P1_Finding_Lane_Lines/Demonstration/p1_1.jpg)
 
 # Overview
 
