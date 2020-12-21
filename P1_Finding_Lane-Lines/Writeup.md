@@ -22,9 +22,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 5. Applying a Hough Transform on the image, I can find out all the straight lines that meet the requirement of gradient(angle) and others.
 
-6. Among these straight lines, I want to distinguish the longest two lines on the left and on the right. They represent the edges of two lanes. Of course, the edges will not always be detected as we wish. Sometimes a small deviation will happen, but it doesn't hurt much. 
-
-   However, when this algorithm deals with complex situation like in the challenge video, finding two longest lines is far from sufficient. As the picture shown here, dominant lines are not always the lines we want due to the distortion. Thus a `checklane()` function is emplemented. This function checks if the dominant lines I find now are too far away from the last one I find. If they are, the new line will be rejected, and the last one therefore remains. 
+6. Among these straight lines, I want to distinguish the longest two lines on the left and on the right. They represent the edges of two lanes. Of course, the edges will not always be detected as we wish. Sometimes a small deviation will happen, but it doesn't hurt much. However, when this algorithm deals with complex situation like in the challenge video, finding two longest lines is far from sufficient. And dominant lines are not always the lines we want due to the distortion. Thus a `checklane()` function is emplemented. This function checks if the dominant lines I find now are too far away from the last one I find. If they are, the new line will be rejected, and the last one therefore remains. 
 
 7. Finally, after checking the new line, I will draw it on the image. But to ensure a smooth change from frame to frame, the position change speed is restricted by a coefficient. Also, a tiny position change will be neglected.
 
@@ -40,6 +38,5 @@ When facing challenge video, there are a lot of distortion that result in wrong 
 
 ### Suggest possible improvements to your pipeline
 
-1. Another color space besides "RGB" can be useful to solve strong sun light problem. For example, "HSL" whose "S" channel is more robust even facing sun light problem, can be a good solution.
-2. Using plain simple straight lines to detect and fit road lanes may not be a very good solution due to the complexity of roads, vehicles, enviroment, etc. A better algorithm to detect lines and a different equation, polynomial equation for instance, to fit the lanes are needed.
+Another color space besides "RGB" can be useful to solve strong sun light problem. For example, "HSL" whose "S" channel is more robust even facing sun light problem, can be a good solution.
 
