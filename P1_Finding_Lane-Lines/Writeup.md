@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road**
 
-![p1_1](/P1_Finding_Lane_Lines/Demonstration/p1_1.jpg)
+![p1_1](https://github.com/yan1li/Self-Driving-Car-Engineer-Projects/blob/main/P1_Finding_Lane-Lines/Demonstration/p1_1.jpg)
 
 # Overview
 
